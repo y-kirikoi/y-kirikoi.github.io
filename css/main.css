@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamProMedium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'GothamPro';
+	color: #5f5f5f;
+}
+.title {
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 4px;
+	word-spacing: 10px;
+	padding: 30px 0 20px;
+	line-height: 1;
+}
+.wrap {
+	margin: 0 25px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.project {
+	margin: 10px;
+	display: block;
+	height: 500px;
+	width: 400px;
+	-webkit-background-size: 100% 100%;
+	        background-size: 100%;
+}
+.project_3 {
+	background-image: url(../images/Jessie.png);
+}
+.project_2 {
+	background-image: url(../images/some_test2.png);
+}
+.project_1 {
+	background-image: url(../images/test1.png);
+}
+.project-hov {
+	opacity: 0.6;
+	border: 1px solid #ccc;
+}
