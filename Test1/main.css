@@ -226,7 +226,7 @@ nav a:hover {
 		background-color: #6b6b6b;
 		display: block;
 		height: 100%;
-		margin-left: -602px;
+		margin-left: -450px;
 		position: fixed;
 		top: 0;
 	}
@@ -272,7 +272,7 @@ nav a:hover {
 }
 @media screen and (max-width: 520px) {
 	.menu {
-		margin-left: -392px;
+		margin-left: -240px;
 	}
 	.menu-item {
 		width: 240px;
