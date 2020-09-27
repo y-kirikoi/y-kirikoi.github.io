@@ -45,6 +45,9 @@ table {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
+a {
+	text-decoration: none;
+}
 
 @font-face {
 	font-family: 'GothamPro';
@@ -60,10 +63,10 @@ body {
 .title {
 	display: block;
 	text-align: center;
-	font-size: 30px;
-	letter-spacing: 4px;
+	font-size: 35px;
+	letter-spacing: 5px;
 	word-spacing: 10px;
-	padding: 30px 0 20px;
+	padding: 10px 0 20px;
 	line-height: 1;
 }
 .wrap {
@@ -80,12 +83,25 @@ body {
 	        justify-content: space-around;
 }
 .project {
-	margin: 10px;
+	margin: 20px;
 	display: block;
 	height: 500px;
 	width: 400px;
 	-webkit-background-size: 100% 100%;
 	        background-size: 100%;
+}
+.titleitem {
+	display: block;
+	position: relative;
+	top: -15px;
+	right: 25px;
+	font-size: 30px;
+	color: #e5e5e5;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.project_4 {
+	background-image: url(../images/somebutton.png);
 }
 .project_3 {
 	background-image: url(../images/Jessie.png);
@@ -97,6 +113,6 @@ body {
 	background-image: url(../images/test1.png);
 }
 .project-hov {
-	opacity: 0.6;
-	border: 1px solid #ccc;
+	opacity: 0.9;
+	border: 1px solid #5f5f5f;
 }
